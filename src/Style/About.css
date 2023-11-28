@@ -1,1 +1,30 @@
 @tailwind components;
+
+@layer components{
+    .About{
+        @apply  font-Open text-VeryDarkCyan w-full
+       
+    }
+    .About .Card{
+        @apply flex justify-around items-center  w-full bg-VeryPaleBlue 
+        md:flex-col-reverse  p-16  
+        md:gap-4 md:text-center md:justify-center md:p-0
+    }
+
+   
+    .About .CardR{
+        @apply flex justify-around items-center  w-full
+        p-16 gap-32 
+        md:flex-col-reverse 
+        md:gap-4 md:text-center md:justify-center md:p-0
+    }
+    .Card h1,.CardR h1 {
+        @apply text-5xl my-12 font-bold px-12 md:text-3xl md:p-4 md:my-3
+    }
+    .Card h5,.CardR h5 {
+        @apply text-2xl mr-12 px-12 md:p-1 md:text-base md:text-center md:m-0 font-semibold
+    }
+    .Card img,.CardR img {
+        @apply w-1/2 md:w-full md:p-14
+    }
+}
