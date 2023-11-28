@@ -13,7 +13,7 @@
 
    
     .About .CardR{
-        @apply flex justify-around items-center  w-full
+        @apply flex justify-around items-center  w-full flex-row-reverse
         p-16 gap-32 
         md:flex-col-reverse 
         md:gap-4 md:text-center md:justify-center md:p-0
