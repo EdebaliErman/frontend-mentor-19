@@ -15,7 +15,7 @@ function Header() {
 
 const TopHeader = () => {
   return <header>
-    <img src={url + "/logo.svg"} alt="logo" />
+    <img className='w-1/6' src={url + "/logo.svg"} alt="logo" />
     <button>Try it Free</button>
 
   </header>
