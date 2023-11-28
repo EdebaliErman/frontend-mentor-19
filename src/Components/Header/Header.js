@@ -46,7 +46,7 @@ const BodyFooter = () => {
     <BodyFooterCard
       icon={"icon-messages.svg"}
       text={"Communities Formed"}
-      count={"1.4k+"}
+      count={"2.7m+"}
     />
   </footer>
 }
