@@ -47,6 +47,6 @@
     }
 
     .BodyFooterCard h1 {
-        @apply text-9xl font-bold
+        @apply text-9xl font-bold md:text-7xl
     }
 }

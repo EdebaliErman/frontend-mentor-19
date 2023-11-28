@@ -19,7 +19,7 @@
         md:gap-4 md:text-center md:justify-center md:p-0
     }
     .Card h1,.CardR h1 {
-        @apply text-5xl my-12 font-bold px-12 md:text-3xl md:p-4 md:my-3
+        @apply text-5xl my-12 font-black px-12 md:text-3xl md:p-4 md:my-3 font-Open
     }
     .Card h5,.CardR h5 {
         @apply text-2xl mr-12 px-12 md:p-1 md:text-base md:text-center md:m-0 font-semibold
