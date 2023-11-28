@@ -55,7 +55,7 @@ const BodyFooterCard = ({ icon, text, count }) => {
   return <div className='BodyFooterCard'>
     <img src={url + icon} alt='icon' />
     <h1>{count}</h1>
-    <p>{text}</p>
+    <p className='text-gray-400'>{text}</p>
   </div>
 }
 
