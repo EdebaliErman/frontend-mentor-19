@@ -7,6 +7,7 @@ function Header() {
   return (
     <div className='Header'>
       <TopHeader />
+
       <BodyHeader/>
     </div>
   )
@@ -16,11 +17,13 @@ const TopHeader = () => {
   return <header>
     <img src={url + "/logo.svg"} alt="logo" />
     <button>Try it Free</button>
+
   </header>
 }
 const BodyHeader = () => {
-  return <div>
+  return <div className='BodyHeader'>
     <BodyHeaderTitle />
+    <img src={url+"screen-mockups.svg"} alt='svg'/>
     <BodyFooter />
   </div>
 }
@@ -49,7 +52,7 @@ const BodyFooter = () => {
 }
 
 const BodyFooterCard = ({ icon, text, count }) => {
-  return <div>
+  return <div className='BodyFooterCard'>
     <img src={url + icon} alt='icon' />
     <h1>{count}</h1>
     <p>{text}</p>
