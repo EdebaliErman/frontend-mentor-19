@@ -1,4 +1,4 @@
-## Deme: https://heroic-nougat-12fa41.netlify.app/
+## Demo: https://heroic-nougat-12fa41.netlify.app/
 
 # Desktop
 
