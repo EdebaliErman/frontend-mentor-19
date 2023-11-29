@@ -6,4 +6,7 @@
   body {
     @apply w-full h-full
   }
+  button{
+    @apply hover:opacity-75
+  }
 }
